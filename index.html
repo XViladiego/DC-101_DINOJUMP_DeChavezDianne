@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dino Jump</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START SCREEN -->
+<div class="screen" id="startScreen">
+  <h1>🦖 DINO JUMP</h1>
+  <button onclick="startGame()">START GAME</button>
+</div>
+
+<!-- GAME SCREEN -->
+<div class="screen hidden" id="gameScreen">
+  <div class="score">Score: <span id="score">0</span></div>
+  <div class="game">
+    <div id="dino">🦖</div>
+    <div id="cactus">🌵</div>
+  </div>
+  <button class="jump-btn" onclick="jump()">JUMP</button>
+</div>
+
+<!-- GAME OVER SCREEN -->
+<div class="screen hidden" id="gameOverScreen">
+  <h1>💀 GAME OVER</h1>
+  <p>Your Score: <span id="finalScore">0</span></p>
+  <button onclick="restartGame()">RESTART</button>
+</div>
+
+<!-- SOUNDS -->
+<audio id="jumpSound" src="assets/sounds/jump_realistic.wav"></audio>
+<audio id="gameOverSound" src="assets/sounds/gameover_realistic.wav"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

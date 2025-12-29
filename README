@@ -1,0 +1,99 @@
+# 🦖 Dino Jump Game
+
+A simple but stylish **Dino Jump web game** inspired by the classic endless runner.
+Built using **HTML, CSS, and JavaScript**, with custom **realistic dinosaur sound effects**.
+
+---
+
+## 🎮 Game Features
+
+- 🦖 Dino character on the **right side**
+- 🌵 Cactus obstacle moving from **left to right**
+- 🔘 **Jump button** (no keyboard required)
+- 🎵 **Realistic dinosaur sound effects**
+  - Dino voice on jump
+  - Dino growl on game over
+- 🧮 Score counter
+- 🖥️ Separate screens:
+  - Start Screen
+  - Game Screen
+  - Game Over Screen
+- 🎨 Clean & modern UI
+- 🌐 GitHub Pages ready
+
+---
+
+## 📂 Project Structure
+
+dino-jump-game/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── assets/
+└── sounds/
+├── jump_realistic.wav
+└── gameover_realistic.wav
+
+
+---
+
+## ▶️ How to Play
+
+1. Click **START GAME**
+2. Press the **JUMP** button to avoid the cactus 🌵
+3. Each successful dodge increases your score
+4. If the dino hits the cactus → **Game Over**
+5. Click **RESTART** to play again
+
+---
+
+## 🔊 Sound Effects
+
+All sound effects are **custom-made**:
+- Jump sound → Dino chirp / voice
+- Game over sound → Dino growl
+
+Sounds are triggered by **user interaction**, so they work properly on browsers and GitHub Pages.
+
+---
+
+## 🚀 How to Run
+
+### Option 1: Local
+- Download or clone the repository
+- Open `index.html` in your browser
+
+### Option 2: GitHub Pages
+1. Upload all files to a GitHub repository
+2. Go to **Settings → Pages**
+3. Set source to `main / root`
+4. Open the generated link
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+---
+
+## 📌 Notes
+
+- No external libraries used
+- Beginner-friendly project
+- Suitable for school projects and demos
+
+---
+
+## 👤 Author
+
+Created by De Chavez Dianne  
+For educational and project purposes.
+
+---
+
+Enjoy the game! 🦖🔥
